@@ -2,7 +2,7 @@
 
 🎃 Welcome to the Spooktacular Halloween Survey! 🎃
 
-A command-line survey with questions about your favorite Halloween favorites.
+A command-line survey with questions about your Spooky  Halloween favorites.
 After completing the survey you will be given your Halloween Profile. 👻
 
 ## Setup
