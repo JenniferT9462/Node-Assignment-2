@@ -13,7 +13,8 @@ import { favoriteHorrorMovie } from './questions/favorite-horror-movie.js';
 //Setting up chalk colors for usage
 const halloween = chalk.hex('#FFA500'); //Orange color
 const profileMessage = chalk.bold.greenBright;
-// const favorites = chalk.bold.red;
+const favorites = chalk.bold.bgBlue;
+const titles = chalk.bold.hex('#FFA500');
 
 
 
@@ -29,8 +30,8 @@ const movie = await select(favoriteHorrorMovie);
 
 //After Survey is complete display Halloween profile
 console.log(profileMessage(`\n${name}, Thank You for sharing your spooky Halloween favorites! Here's your profile:`));
-console.log(boxen(`${costume}`, {title: 'Favorite Costume', titleAlignment: 'center'}));
-console.log(boxen(`${candy}`, {title: 'Favorite Candy', titleAlignment: 'center'}));
-console.log(boxen(`${movie}`, {title: 'Favorite Horror Movie', titleAlignment: 'center'}));
-console.log(halloween(`Remember, the best way to celebrate Halloween is with candy, costumes, and a good scare! 👻`));
+console.log(boxen(favorites(`${costume}`), {title: titles('Favorite Costume'), titleAlignment: 'center'}));
+console.log(boxen(favorites(`${candy}`), {title: titles('Favorite Candy'), titleAlignment: 'center'}));
+console.log(boxen(favorites(`${movie}`), {title: titles('Favorite Horror Movie'), titleAlignment: 'center'}));
+console.log(halloween(`\nRemember, the best way to celebrate Halloween is with candy, costumes, and a good scare! 👻`));
 
