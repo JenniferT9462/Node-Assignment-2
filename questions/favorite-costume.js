@@ -15,6 +15,10 @@ const favoriteCostume = {
         },
         {
             name: "Ghost (boo! 👻)",
+            value: "Ghost (boo! 👻)"
+        },
+        {
+            name: "Superhero (saving the day one candy at a time!)",
             value: "Superhero (saving the day one candy at a time!)"
         }
     ]

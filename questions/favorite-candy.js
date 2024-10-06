@@ -18,8 +18,8 @@ const favoriteCandy = {
             value: "Skittles (taste the rainbow!)"
         },
         {
-            name: "Lollipops (sucker for a good time!)",
-            value: "Lollipops (sucker for a good time!)"
+            name: "Sour Patch Kids (Made by witches, for kids)",
+            value: "Sour Patch Kids (Made by witches, for kids)"
         }
     ]
 };
