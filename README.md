@@ -38,7 +38,7 @@ After completing the survey you will be given your Halloween Profile. 👻
         * survey.js
 
     Run(in terminal): 
-
+            npm install
             node survey.js
 
     * To start the survey
