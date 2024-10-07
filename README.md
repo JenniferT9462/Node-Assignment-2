@@ -23,7 +23,7 @@ After completing the survey you will be given your Halloween Profile. 👻
         npm install boxen
 
 * inquirer is for our prompts <https://www.npmjs.com/package/@inquirer/prompts>
-* cowsay is to add some fun! <https://www.npmjs.com/>
+* cowsay is to add some fun! <https://www.npmjs.com/cowsay>
 * chalk is to bring some colors and more! <https://www.npmjs.com/package/chalk>
 * boxen adds boxes with labels. <https://www.npmjs.com/package/boxen>
 
